@@ -9,6 +9,8 @@ window.geometry('380x320+100+100')
 def f():
     
     global ent7
+    ent7.delete(0, tkinter.END)
+    
 
     
 
@@ -37,6 +39,7 @@ def f():
     
 def ff():
     global ent7
+    ent7.delete(0, tkinter.END)
     ee=random.sample(d, 4)
     eee=''.join(ee)
     ent7.insert(0, eee)
@@ -44,6 +47,7 @@ def ff():
 
 def fff():
     global ent7
+    ent7.delete(0, tkinter.END)
     gg=random.sample(d, 8)
     ggg=''.join(gg)
     ent7.insert(0, ggg)
@@ -51,6 +55,7 @@ def fff():
 
 def ffff():
     global ent7
+    ent7.delete(0, tkinter.END)
     hh=random.sample(d, 12)
     hhh=''.join(hh)
     ent7.insert(0, hhh)
